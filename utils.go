@@ -6,7 +6,7 @@ import (
 )
 
 
-const shortKeyLength = 0
+const shortKeyLength = 6
 var charset = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
 
 func GenerateShortKey() string {
